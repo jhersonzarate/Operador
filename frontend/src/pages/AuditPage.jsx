@@ -13,7 +13,7 @@ export default function AuditPage() {
     const fetchLogs = async () => {
       try {
         // Endpoint de auditoría — devuelve los últimos 50 registros
-        const res = await axios.get('http://localhost:8080/api/audit-logs', {
+        const res = await axios.get(`${import.meta.env.VITE_API_URL}/audit-logs`, {
           timeout: 8000,
         })
         if (!cancelado) {

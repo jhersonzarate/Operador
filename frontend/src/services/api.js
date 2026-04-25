@@ -46,3 +46,7 @@ export const exportApi = {
   exportarCSV: () =>
     api.get('/export/cases/csv', { responseType: 'blob' }),
 }
+
+export const auditApi = {
+  listar: (limit = 50) => api.get('/audit-logs', { params: { limit } }),
+}
