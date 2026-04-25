@@ -1,3 +1,14 @@
+error id: file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/ExportService.java:_empty_/Case#getEstado#
+file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/ExportService.java
+empty definition using pc, found symbol in pc: _empty_/Case#getEstado#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 1241
+uri: file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/ExportService.java
+text:
+```scala
 package com.complytools.service;
 
 import com.complytools.model.Case;
@@ -17,6 +28,7 @@ public class ExportService {
     private final CaseRepository caseRepository;
     private final SourceRepository sourceRepository;
 
+    // Genera CSV con todos los casos
     public String exportarCasosCSV() {
         StringWriter writer = new StringWriter();
         try (CSVWriter csv = new CSVWriter(writer)) {
@@ -30,9 +42,9 @@ public class ExportService {
                     String.valueOf(caso.getId()),
                     caso.getNombreCompleto(),
                     caso.getPais(),
-                    caso.getEstado(),
+                    caso.getEs@@tado(),
                     String.valueOf(fuentes),
-                    caso.getCreatedAt() != null ? caso.getCreatedAt().toString() : ""
+                    caso.getCreatedAt().toString()
                 };
                 csv.writeNext(row);
             }
@@ -42,3 +54,9 @@ public class ExportService {
         return writer.toString();
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/Case#getEstado#

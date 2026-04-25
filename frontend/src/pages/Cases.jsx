@@ -12,7 +12,6 @@ export default function Cases() {
   const [showModal, setShowModal] = useState(false)
   const navigate = useNavigate()
 
-  // useCallback para evitar re-creaciones innecesarias de la funcion
   const cargar = useCallback(async () => {
     setLoading(true)
     try {
@@ -25,10 +24,12 @@ export default function Cases() {
     }
   }, [])
 
-  // El useEffect no llama setState directamente: delega a cargar()
   useEffect(() => {
-    cargar()
-  }, [cargar])
+    const load = async () => {
+      await cargar()
+    }
+    load()
+  }, [])
 
   const buscar = async () => {
     if (!query.trim()) {
@@ -81,11 +82,6 @@ export default function Cases() {
     }
   }
 
-  const handleModalSaved = () => {
-    setShowModal(false)
-    cargar()
-  }
-
   return (
     <div>
       <div className="flex items-center justify-between mb-6">
@@ -114,7 +110,7 @@ export default function Cases() {
       {/* Buscador */}
       <div className="flex gap-2 mb-4">
         <div className="flex-1 flex items-center gap-2 bg-surface border border-border rounded-lg px-3">
-          <Search size={15} className="text-muted" />
+          <Search size={15} className="text-muted shrink-0" />
           <input
             value={query}
             onChange={e => setQuery(e.target.value)}
@@ -122,6 +118,14 @@ export default function Cases() {
             placeholder="Buscar por nombre o pais..."
             className="flex-1 bg-transparent py-2.5 text-sm text-text placeholder-muted outline-none"
           />
+          {query && (
+            <button
+              onClick={() => { setQuery(''); cargar() }}
+              className="text-muted hover:text-text text-xs transition-colors"
+            >
+              Limpiar
+            </button>
+          )}
         </div>
         <button
           onClick={buscar}
@@ -171,7 +175,14 @@ export default function Cases() {
                   <td className="px-4 py-3.5">
                     <StatusBadge estado={caso.estado} />
                   </td>
-                  <td className="px-4 py-3.5 text-text-secondary">{caso.totalFuentes}</td>
+                  <td className="px-4 py-3.5">
+                    <span className={`text-sm font-medium ${caso.totalFuentes < 2 ? 'text-yellow-400' : 'text-text-secondary'}`}>
+                      {caso.totalFuentes}
+                      {caso.totalFuentes < 2 && (
+                        <span className="text-xs text-muted ml-1">(min. 2)</span>
+                      )}
+                    </span>
+                  </td>
                   <td className="px-4 py-3.5 text-text-secondary text-xs">
                     {caso.createdAt
                       ? new Date(caso.createdAt).toLocaleDateString('es-PE')
@@ -205,7 +216,7 @@ export default function Cases() {
       {showModal && (
         <CaseFormModal
           onClose={() => setShowModal(false)}
-          onSaved={handleModalSaved}
+          onSaved={() => { setShowModal(false); cargar() }}
         />
       )}
     </div>

@@ -12,10 +12,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * CORRECCIÓN: Se elimina @CrossOrigin — ya está configurado en SecurityConfig.
+ */
 @RestController
 @RequestMapping("/api/cases/{caseId}/sources")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "${app.cors.allowed-origins}")
 public class SourceController {
 
     private final SourceService sourceService;

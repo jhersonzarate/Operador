@@ -1,3 +1,14 @@
+error id: file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java:lombok/extern/slf4j/Slf4j#
+file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java
+empty definition using pc, found symbol in pc: lombok/extern/slf4j/Slf4j#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 522
+uri: file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java
+text:
+```scala
 package com.complytools.service;
 
 import com.complytools.dto.SourceRequestDTO;
@@ -10,7 +21,7 @@ import com.complytools.repository.CaseRepository;
 import com.complytools.repository.SourceRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
+import lombok.extern.slf4j.@@Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -59,13 +70,13 @@ public class SourceService {
         Source guardado = sourceRepository.save(source);
 
         // Auditoría de registro de fuente
-        AuditLog auditLog = AuditLog.builder()
+        AuditLog log = AuditLog.builder()
                 .accion("REGISTRAR_FUENTE")
                 .entidad("sources")
                 .entidadId(guardado.getId())
                 .detalle("URL: " + guardado.getUrl() + " — Caso: " + caseId)
                 .build();
-        auditLogRepository.save(auditLog);
+        auditLogRepository.save(log);
 
         log.info("Fuente registrada en caso {}: {}", caseId, dto.getUrl());
         return mapToResponse(guardado);
@@ -103,3 +114,9 @@ public class SourceService {
                 .build();
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: lombok/extern/slf4j/Slf4j#

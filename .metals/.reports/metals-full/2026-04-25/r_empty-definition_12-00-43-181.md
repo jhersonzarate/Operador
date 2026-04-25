@@ -1,3 +1,14 @@
+error id: file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java:_empty_/log#
+file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java
+empty definition using pc, found symbol in pc: _empty_/log#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 2749
+uri: file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java
+text:
+```scala
 package com.complytools.service;
 
 import com.complytools.dto.SourceRequestDTO;
@@ -67,7 +78,7 @@ public class SourceService {
                 .build();
         auditLogRepository.save(auditLog);
 
-        log.info("Fuente registrada en caso {}: {}", caseId, dto.getUrl());
+        @@log.info("Fuente registrada en caso {}: {}", caseId, dto.getUrl());
         return mapToResponse(guardado);
     }
 
@@ -103,3 +114,9 @@ public class SourceService {
                 .build();
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/log#

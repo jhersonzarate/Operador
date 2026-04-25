@@ -7,10 +7,12 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * CORRECCIÓN: Se elimina @CrossOrigin — ya está en SecurityConfig.
+ */
 @RestController
 @RequestMapping("/api/export")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "${app.cors.allowed-origins}")
 public class ExportController {
 
     private final ExportService exportService;

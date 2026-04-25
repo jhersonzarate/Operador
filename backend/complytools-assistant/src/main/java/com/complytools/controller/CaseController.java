@@ -12,12 +12,14 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * CORRECCIÓN: Se elimina @CrossOrigin — ya está configurado globalmente
+ * en SecurityConfig. Tenerlo aquí duplicaba los headers CORS y podía
+ * causar conflictos con ciertos navegadores.
+ */
 @RestController
 @RequestMapping("/api/cases")
 @RequiredArgsConstructor
-// CORRECCION: CrossOrigin se maneja globalmente en SecurityConfig.
-// Si se deja aqui, debe coincidir con la propiedad del properties.
-// Lo dejamos por claridad pero SecurityConfig ya lo cubre.
 public class CaseController {
 
     private final CaseService caseService;
@@ -27,20 +29,19 @@ public class CaseController {
         return ResponseEntity.ok(caseService.listarTodos());
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<CaseResponseDTO> obtenerPorId(@PathVariable Long id) {
-        return ResponseEntity.ok(caseService.obtenerPorId(id));
+    @GetMapping("/dashboard")
+    public ResponseEntity<DashboardDTO> dashboard() {
+        return ResponseEntity.ok(caseService.obtenerDashboard());
     }
 
-    // IMPORTANTE: /buscar y /dashboard antes de /{id} para evitar conflicto de ruta
     @GetMapping("/buscar")
     public ResponseEntity<List<CaseResponseDTO>> buscar(@RequestParam String q) {
         return ResponseEntity.ok(caseService.buscar(q));
     }
 
-    @GetMapping("/dashboard")
-    public ResponseEntity<DashboardDTO> dashboard() {
-        return ResponseEntity.ok(caseService.obtenerDashboard());
+    @GetMapping("/{id}")
+    public ResponseEntity<CaseResponseDTO> obtenerPorId(@PathVariable Long id) {
+        return ResponseEntity.ok(caseService.obtenerPorId(id));
     }
 
     @PostMapping

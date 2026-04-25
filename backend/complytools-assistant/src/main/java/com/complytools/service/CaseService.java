@@ -14,6 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -58,15 +59,32 @@ public class CaseService {
         return mapToResponse(guardado);
     }
 
+    /**
+     * CORRECCIÓN: Validamos que si el nuevo estado es COMPLETADO,
+     * el caso debe tener al menos 2 fuentes registradas.
+     * Sin este bloqueo, el operador podía cerrar un caso sin evidencia suficiente.
+     */
     @Transactional
     public CaseResponseDTO actualizar(Long id, CaseRequestDTO dto) {
         Case caso = findCaseOrThrow(id);
         String estadoAnterior = caso.getEstado();
+        String nuevoEstado = dto.getEstado();
+
+        // Bloquear COMPLETADO si no hay suficientes fuentes
+        if ("COMPLETADO".equals(nuevoEstado) && !estadoAnterior.equals("COMPLETADO")) {
+            long totalFuentes = sourceRepository.countByCaseEntityId(id);
+            if (totalFuentes < 2) {
+                throw new IllegalStateException(
+                    "No se puede completar el caso. Se requieren al menos 2 fuentes registradas. " +
+                    "Actualmente tiene " + totalFuentes + "."
+                );
+            }
+        }
 
         caso.setNombreCompleto(dto.getNombreCompleto().trim());
         caso.setPais(dto.getPais().trim());
-        if (dto.getEstado() != null) {
-            caso.setEstado(dto.getEstado());
+        if (nuevoEstado != null) {
+            caso.setEstado(nuevoEstado);
         }
 
         Case guardado = caseRepository.save(caso);
@@ -93,20 +111,39 @@ public class CaseService {
                 .collect(Collectors.toList());
     }
 
+    /**
+     * CORRECCIÓN: Se calculan productividadDiaria y tiempoPromedioPorCaso.
+     *
+     * tiempoPromedioPorCaso: promedio en minutos entre createdAt y updatedAt
+     * de todos los casos en estado COMPLETADO. Si no hay casos completados, retorna 0.
+     */
     @Transactional(readOnly = true)
     public DashboardDTO obtenerDashboard() {
         LocalDateTime inicioDia = LocalDate.now().atStartOfDay();
+
+        List<Case> completados = caseRepository.findByEstado("COMPLETADO");
+
+        double tiempoPromedio = completados.stream()
+                .filter(c -> c.getCreatedAt() != null && c.getUpdatedAt() != null)
+                .mapToLong(c -> Duration.between(c.getCreatedAt(), c.getUpdatedAt()).toMinutes())
+                .filter(min -> min >= 0)
+                .average()
+                .orElse(0.0);
+
+        long completadosHoy = caseRepository.countCompletadosDesde(inicioDia);
+
         return DashboardDTO.builder()
                 .totalCasos(caseRepository.count())
-                .casosCompletados(caseRepository.findByEstado("COMPLETADO").size())
+                .casosCompletados(completados.size())
                 .casosEnProceso(caseRepository.findByEstado("EN_PROCESO").size())
                 .casosPendientes(caseRepository.findByEstado("PENDIENTE").size())
-                .completadosHoy(caseRepository.countCompletadosDesde(inicioDia))
+                .completadosHoy(completadosHoy)
                 .totalFuentes(sourceRepository.count())
+                .productividadDiaria(completadosHoy)
+                .tiempoPromedioPorCaso(Math.round(tiempoPromedio * 10.0) / 10.0)
                 .build();
     }
 
-    // Mapeo entidad -> DTO de respuesta
     private CaseResponseDTO mapToResponse(Case caso) {
         long totalFuentes = sourceRepository.countByCaseEntityId(caso.getId());
         return CaseResponseDTO.builder()
@@ -126,17 +163,12 @@ public class CaseService {
                 .orElseThrow(() -> new EntityNotFoundException("Caso no encontrado con ID: " + id));
     }
 
-    /**
-     * CORRECCION: el builder de AuditLog no setea 'fecha' manualmente
-     * porque @PrePersist lo hace automaticamente. Solo pasamos los campos de negocio.
-     */
     private void registrarAuditoria(String accion, String entidad, Long entidadId, String detalle) {
         AuditLog entry = AuditLog.builder()
                 .accion(accion)
                 .entidad(entidad)
                 .entidadId(entidadId)
                 .detalle(detalle)
-                // user null por ahora (sin autenticacion activa)
                 .build();
         auditLogRepository.save(entry);
     }

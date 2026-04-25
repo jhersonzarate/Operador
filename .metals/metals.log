@@ -903,3 +903,370 @@ WARNING: Unmatched cancel notification for request id 129
 2026.04.25 11:34:35 INFO  Memory monitor stopped
 2026.04.25 11:34:35 INFO  shutting down Metals
 2026.04.25 11:34:35 INFO  Exiting server
+2026.04.25 11:49:55 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\Jherson Silva\complytools-assistant' for client Visual Studio Code 1.116.0.
+2026.04.25 11:49:55 INFO  Memory monitor started
+2026.04.25 11:49:59 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.25 11:49:59 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java. Using fallback presentation compiler.
+abr 25, 2026 11:50:00 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.04.25 11:50:01 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:01 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:01 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:01 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java. Using fallback presentation compiler.
+abr 25, 2026 11:50:01 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+abr 25, 2026 11:50:01 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+abr 25, 2026 11:50:01 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2026.04.25 11:50:02 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:04 WARN  no build tool detected in workspace 'C:\Users\Jherson Silva\complytools-assistant'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.04.25 11:50:04 WARN  Build server is not auto-connectable.
+2026.04.25 11:50:04 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java
+2026.04.25 11:50:05 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/dto/DashboardDTO.java. Output:
+
+2026.04.25 11:50:06 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java
+2026.04.25 11:50:06 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:07 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/dto/CaseRequestDTO.java. Output:
+
+abr 25, 2026 11:50:07 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2026.04.25 11:50:07 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:06 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+abr 25, 2026 11:50:08 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2026.04.25 11:50:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:11 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java
+2026.04.25 11:50:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+abr 25, 2026 11:50:11 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2026.04.25 11:50:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+abr 25, 2026 11:50:12 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+2026.04.25 11:50:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:12 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:12 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java
+2026.04.25 11:50:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:18 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:18 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:19 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:20 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java
+2026.04.25 11:50:20 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:19 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/dto/CaseResponseDTO.java. Output:
+
+2026.04.25 11:50:20 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:20 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:20 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:20 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:21 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:21 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:21 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:21 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:21 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:21 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:22 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:22 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java
+2026.04.25 11:50:22 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:28 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java
+2026.04.25 11:50:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:28 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/dto/SourceRequestDTO.java. Output:
+
+2026.04.25 11:50:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:29 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:29 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:29 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:29 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:29 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:30 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:31 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java
+2026.04.25 11:50:31 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:37 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java
+2026.04.25 11:50:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:37 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/dto/SourceResponseDTO.java. Output:
+
+2026.04.25 11:50:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:39 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java
+2026.04.25 11:50:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:50:48 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java
+2026.04.25 11:50:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:48 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/CaseService.java. Output:
+
+2026.04.25 11:50:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:49 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:49 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:49 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:49 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:49 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:50 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/CaseService.java. Output:
+
+2026.04.25 11:50:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:51 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java
+2026.04.25 11:50:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:50:52 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:51:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:51:08 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java
+2026.04.25 11:51:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:51:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:51:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:51:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:51:08 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java
+2026.04.25 11:51:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:51:09 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:51:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:51:10 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java
+2026.04.25 11:51:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:10 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java. Output:
+
+2026.04.25 11:51:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:12 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:12 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java. Output:
+
+2026.04.25 11:51:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:13 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java
+2026.04.25 11:51:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:14 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java. Output:
+
+2026.04.25 11:51:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:15 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java
+2026.04.25 11:51:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:15 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java. Output:
+
+2026.04.25 11:51:16 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java
+2026.04.25 11:51:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:17 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/ExportService.java. Output:
+
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 INFO  Created report: Optional[file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/ExportService.java]
+2026.04.25 11:51:23 INFO  empty definition using pc, found symbol in pc: _empty_/Case#getEstado# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_11-51-23-845.md")
+2026.04.25 11:51:23 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Case.java
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Case.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/model/Case.java. Output:
+
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:23 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Case.java
+2026.04.25 11:51:23 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/model/Case.java. Output:
+
+2026.04.25 11:51:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:24 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:24 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:24 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:24 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:25 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:25 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/ExportService.java. Output:
+
+2026.04.25 11:51:25 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:25 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java
+2026.04.25 11:51:25 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:51:39 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java
+2026.04.25 11:51:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:39 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/CaseController.java. Output:
+
+2026.04.25 11:51:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:40 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:40 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:40 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:40 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:40 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:40 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/CaseController.java. Output:
+
+2026.04.25 11:51:41 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java
+2026.04.25 11:51:41 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:51:47 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java
+2026.04.25 11:51:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:47 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/SourceController.java. Output:
+
+2026.04.25 11:51:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:49 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:49 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/SourceController.java. Output:
+
+2026.04.25 11:51:50 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java
+2026.04.25 11:51:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:51:55 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java
+2026.04.25 11:51:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:55 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/ExportController.java. Output:
+
+2026.04.25 11:51:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:56 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:56 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:56 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:56 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:51:57 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/ExportController.java. Output:
+
+2026.04.25 11:51:57 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java
+2026.04.25 11:51:57 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:52:03 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java
+2026.04.25 11:52:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:03 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/AuditLogController.java. Output:
+
+2026.04.25 11:52:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:04 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:04 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:04 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:04 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:04 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/AuditLogController.java. Output:
+
+2026.04.25 11:52:04 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:05 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java
+2026.04.25 11:52:04 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:52:13 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java
+2026.04.25 11:52:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:13 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/config/SecurityConfig.java. Output:
+
+2026.04.25 11:52:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:16 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/config/SecurityConfig.java. Output:
+
+2026.04.25 11:52:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:17 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java
+2026.04.25 11:52:17 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:17 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:52:44 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java
+2026.04.25 11:52:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:44 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/exception/GlobalExceptionHandler.java. Output:
+
+2026.04.25 11:52:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:45 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:45 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:45 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:45 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:45 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/exception/GlobalExceptionHandler.java. Output:
+
+2026.04.25 11:52:45 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java
+2026.04.25 11:52:46 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 11:52:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\DashboardDTO.java. Using fallback presentation compiler.
+2026.04.25 11:53:06 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:53:20 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\CaseResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:53:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceRequestDTO.java. Using fallback presentation compiler.
+2026.04.25 11:53:37 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\dto\SourceResponseDTO.java. Using fallback presentation compiler.
+2026.04.25 11:53:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 11:54:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 11:54:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\ExportService.java. Using fallback presentation compiler.
+2026.04.25 11:54:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Case.java. Using fallback presentation compiler.
+2026.04.25 11:54:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 11:54:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 11:54:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\ExportController.java. Using fallback presentation compiler.
+2026.04.25 11:55:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 11:55:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 11:55:44 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.25 12:00:28 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java
+2026.04.25 12:00:29 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java. Output:
+
+2026.04.25 12:00:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:38 INFO  Created report: Optional[file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java]
+2026.04.25 12:00:38 INFO  empty definition using pc, found symbol in pc: com/complytools/model/AuditLog# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_12-00-38-237.md")
+2026.04.25 12:00:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:38 INFO  Created report: Optional[file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java]
+2026.04.25 12:00:38 INFO  empty definition using pc, found symbol in pc: lombok/extern/slf4j/Slf4j# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_12-00-38-382.md")
+2026.04.25 12:00:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:38 INFO  empty definition using pc, found symbol in pc: com/complytools/model/AuditLog# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_12-00-38-237.md")
+2026.04.25 12:00:38 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:38 INFO  empty definition using pc, found symbol in pc: com/complytools/model/AuditLog# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_12-00-38-237.md")
+2026.04.25 12:00:40 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:40 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java
+2026.04.25 12:00:40 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java. Output:
+
+2026.04.25 12:00:42 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:42 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:43 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:42 INFO  Created report: Optional[file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java]
+2026.04.25 12:00:42 INFO  empty definition using pc, found symbol in pc: _empty_/log# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_12-00-43-181.md")
+2026.04.25 12:00:42 INFO  empty definition using pc, found symbol in pc: com/complytools/model/AuditLog# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_12-00-38-237.md")
+2026.04.25 12:00:43 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:43 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 12:00:43 INFO  empty definition using pc, found symbol in pc: _empty_/log# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_12-00-43-181.md")

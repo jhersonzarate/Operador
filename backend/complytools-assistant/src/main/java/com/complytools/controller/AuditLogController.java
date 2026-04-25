@@ -17,10 +17,6 @@ public class AuditLogController {
 
     private final AuditLogRepository auditLogRepository;
 
-    /**
-     * Devuelve los ultimos N registros de auditoria, ordenados por fecha desc.
-     * El parametro 'limit' tiene un maximo de 200 para no sobrecargar.
-     */
     @GetMapping
     public ResponseEntity<List<AuditLog>> listar(
             @RequestParam(defaultValue = "50") int limit) {

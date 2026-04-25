@@ -29,16 +29,16 @@ public class GlobalExceptionHandler {
         return buildError(HttpStatus.BAD_REQUEST, ex.getMessage());
     }
 
+    /**
+     * CORRECCIÓN: IllegalStateException ahora retorna 409 CONFLICT.
+     * Se usa cuando el caso no puede completarse por falta de fuentes.
+     */
     @ExceptionHandler(IllegalStateException.class)
     public ResponseEntity<Map<String, Object>> handleIllegalState(IllegalStateException ex) {
         log.warn("Estado invalido: {}", ex.getMessage());
         return buildError(HttpStatus.CONFLICT, ex.getMessage());
     }
 
-    /**
-     * Captura errores de validacion de @Valid y retorna mapa campo -> mensaje.
-     * El frontend los muestra directamente al usuario.
-     */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, Object>> handleValidation(MethodArgumentNotValidException ex) {
         Map<String, String> erroresCampos = new HashMap<>();
@@ -58,10 +58,6 @@ public class GlobalExceptionHandler {
         return ResponseEntity.badRequest().body(body);
     }
 
-    /**
-     * Fallback para excepciones no manejadas explicitamente.
-     * Evita que stacktraces lleguen al cliente.
-     */
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneric(Exception ex) {
         log.error("Error inesperado", ex);
