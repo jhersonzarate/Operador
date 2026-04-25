@@ -1270,3 +1270,243 @@ WARNING: Unmatched cancel notification for request id 40
 2026.04.25 12:00:43 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
 2026.04.25 12:00:43 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
 2026.04.25 12:00:43 INFO  empty definition using pc, found symbol in pc: _empty_/log# (full report at: "C:\Users\Jherson Silva\complytools-assistant\.metals\.reports\metals-full\2026-04-25\r_empty-definition_12-00-43-181.md")
+2026.04.25 13:19:09 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java
+2026.04.25 13:19:09 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:19:10 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+abr 25, 2026 1:19:10 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 416
+2026.04.25 13:19:09 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:19:09 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+abr 25, 2026 1:19:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 420
+2026.04.25 13:19:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:19:11 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/config/SecurityConfig.java. Output:
+
+2026.04.25 13:19:11 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:19:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:19:13 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:37:30 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:37:30 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java
+abr 25, 2026 1:37:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 434
+2026.04.25 13:37:30 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+abr 25, 2026 1:37:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 435
+2026.04.25 13:37:30 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+abr 25, 2026 1:37:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 437
+2026.04.25 13:37:31 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:37:31 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:37:31 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:37:32 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:44:26 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:44:26 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java
+2026.04.25 13:44:26 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:44:26 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:44:27 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:44:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:44:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:44:28 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:45:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:45:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:45:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:45:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:46:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:46:51 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java
+2026.04.25 13:46:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:46:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:46:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:46:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:46:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:46:52 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:46:52 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:15 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/config/SecurityConfig.java. Output:
+
+2026.04.25 13:47:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:15 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java
+2026.04.25 13:47:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:47:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:58:18 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:58:18 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java
+abr 25, 2026 1:58:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 508
+2026.04.25 13:58:18 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:58:18 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:58:19 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:58:19 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:58:20 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.25 13:58:23 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java
+2026.04.25 13:58:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 13:58:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 13:58:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 13:58:23 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/CaseController.java. Output:
+
+2026.04.25 13:58:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+abr 25, 2026 1:58:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 523
+2026.04.25 13:58:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 13:58:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 13:58:24 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 13:58:23 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\CaseController.java. Using fallback presentation compiler.
+2026.04.25 13:58:35 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java
+2026.04.25 13:58:35 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java. Using fallback presentation compiler.
+2026.04.25 13:58:35 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/model/AuditLog.java. Output:
+
+abr 25, 2026 1:58:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 530
+2026.04.25 13:58:35 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java. Using fallback presentation compiler.
+2026.04.25 13:58:35 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java. Using fallback presentation compiler.
+abr 25, 2026 1:58:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 533
+2026.04.25 13:58:35 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java. Using fallback presentation compiler.
+2026.04.25 13:58:35 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java. Using fallback presentation compiler.
+2026.04.25 13:58:36 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java. Using fallback presentation compiler.
+2026.04.25 13:58:36 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java. Using fallback presentation compiler.
+2026.04.25 13:58:36 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\AuditLog.java. Using fallback presentation compiler.
+2026.04.25 13:59:00 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java
+2026.04.25 13:59:00 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+abr 25, 2026 1:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 546
+2026.04.25 13:59:00 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 13:59:00 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+abr 25, 2026 1:59:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 549
+2026.04.25 13:59:00 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 13:59:00 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/CaseService.java. Output:
+
+2026.04.25 13:59:01 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 13:59:00 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 13:59:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 13:59:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 13:59:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 13:59:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:04 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:04 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:05 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:05 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:05 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:06 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:05 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:06 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/CaseService.java. Output:
+
+2026.04.25 14:00:06 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:06 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:06 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/CaseService.java. Output:
+
+2026.04.25 14:00:07 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java
+2026.04.25 14:00:07 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:08 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:09 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:12 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:14 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/CaseService.java. Output:
+
+2026.04.25 14:00:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:14 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:14 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/CaseService.java. Output:
+
+2026.04.25 14:00:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:15 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java
+2026.04.25 14:00:15 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:16 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\CaseService.java. Using fallback presentation compiler.
+2026.04.25 14:00:26 INFO  Shutting down server
+2026.04.25 14:00:26 INFO  Memory monitor stopped
+2026.04.25 14:00:26 INFO  shutting down Metals
+2026.04.25 14:00:26 INFO  Exiting server
+2026.04.25 14:22:37 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\Jherson Silva\complytools-assistant' for client Visual Studio Code 1.117.0.
+2026.04.25 14:22:37 INFO  Memory monitor started
+2026.04.25 14:22:39 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.25 14:22:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+abr 25, 2026 2:22:41 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+abr 25, 2026 2:22:41 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.04.25 14:22:41 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 14:22:42 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+abr 25, 2026 2:22:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+abr 25, 2026 2:22:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+abr 25, 2026 2:22:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+abr 25, 2026 2:22:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2026.04.25 14:22:41 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java. Using fallback presentation compiler.
+2026.04.25 14:22:41 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\User.java. Using fallback presentation compiler.
+abr 25, 2026 2:22:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2026.04.25 14:22:42 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\User.java. Using fallback presentation compiler.
+2026.04.25 14:22:42 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+abr 25, 2026 2:22:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2026.04.25 14:22:43 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+2026.04.25 14:22:42 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+2026.04.25 14:22:42 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+2026.04.25 14:22:42 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+2026.04.25 14:22:46 WARN  no build tool detected in workspace 'C:\Users\Jherson Silva\complytools-assistant'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.04.25 14:22:46 WARN  Build server is not auto-connectable.
+2026.04.25 14:22:46 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\User.java
+2026.04.25 14:22:46 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\AuditLogController.java
+2026.04.25 14:22:46 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java
+2026.04.25 14:22:47 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+2026.04.25 14:22:47 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/model/Source.java. Output:
+
+2026.04.25 14:22:47 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/AuditLogController.java. Output:
+
+2026.04.25 14:22:47 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/model/User.java. Output:
+
+2026.04.25 14:22:48 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+2026.04.25 14:22:50 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java
+2026.04.25 14:22:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:50 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/controller/SourceController.java. Output:
+
+abr 25, 2026 2:22:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2026.04.25 14:22:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:51 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:52 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:22:55 WARN  no build target for: C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java
+2026.04.25 14:22:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+abr 25, 2026 2:22:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2026.04.25 14:22:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:56 WARN  Running javac-semanticdb failed for file:///C:/Users/Jherson%20Silva/complytools-assistant/backend/complytools-assistant/src/main/java/com/complytools/service/SourceService.java. Output:
+
+2026.04.25 14:22:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:56 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:57 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:58 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:59 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:22:59 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+2026.04.25 14:23:02 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:23:03 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\User.java. Using fallback presentation compiler.
+2026.04.25 14:25:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\User.java. Using fallback presentation compiler.
+2026.04.25 14:25:39 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\model\Source.java. Using fallback presentation compiler.
+2026.04.25 14:25:50 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\controller\SourceController.java. Using fallback presentation compiler.
+2026.04.25 14:25:55 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\service\SourceService.java. Using fallback presentation compiler.
+2026.04.25 14:57:18 INFO  Shutting down server
+2026.04.25 14:57:18 INFO  Memory monitor stopped
+2026.04.25 14:57:18 INFO  shutting down Metals
+2026.04.25 14:57:18 INFO  Exiting server
