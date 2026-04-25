@@ -1,17 +1,23 @@
 import axios from 'axios'
 
+// Instancia base de axios apuntando al backend Spring Boot
 const api = axios.create({
   baseURL: 'http://localhost:8080/api',
   headers: {
     'Content-Type': 'application/json',
   },
+  // Timeout razonable para operaciones normales
+  timeout: 10000,
 })
 
-// Interceptor para manejo global de errores
+// Interceptor global de errores — loguea sin romper el flujo
 api.interceptors.response.use(
-  (response) => response,
-  (error) => {
-    const mensaje = error.response?.data?.error || 'Error de conexion con el servidor'
+  response => response,
+  error => {
+    const mensaje =
+      error.response?.data?.error ||
+      error.message ||
+      'Error de conexion con el servidor'
     console.error('[ComplyTools API]', mensaje)
     return Promise.reject(error)
   }
@@ -19,16 +25,16 @@ api.interceptors.response.use(
 
 export const casesApi = {
   listar: () => api.get('/cases'),
-  obtener: (id) => api.get(`/cases/${id}`),
-  crear: (data) => api.post('/cases', data),
+  obtener: id => api.get(`/cases/${id}`),
+  crear: data => api.post('/cases', data),
   actualizar: (id, data) => api.put(`/cases/${id}`, data),
-  eliminar: (id) => api.delete(`/cases/${id}`),
-  buscar: (q) => api.get('/cases/buscar', { params: { q } }),
+  eliminar: id => api.delete(`/cases/${id}`),
+  buscar: q => api.get('/cases/buscar', { params: { q } }),
   dashboard: () => api.get('/cases/dashboard'),
 }
 
 export const sourcesApi = {
-  listar: (caseId) => api.get(`/cases/${caseId}/sources`),
+  listar: caseId => api.get(`/cases/${caseId}/sources`),
   registrar: (caseId, data) => api.post(`/cases/${caseId}/sources`, data),
   validar: (caseId, sourceId, data) =>
     api.patch(`/cases/${caseId}/sources/${sourceId}/validacion`, data),
@@ -36,6 +42,7 @@ export const sourcesApi = {
     api.delete(`/cases/${caseId}/sources/${sourceId}`),
 }
 
+// responseType blob es correcto para descarga de CSV
 export const exportApi = {
   exportarCSV: () =>
     api.get('/export/cases/csv', { responseType: 'blob' }),

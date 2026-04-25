@@ -15,7 +15,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/cases")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "${app.cors.allowed-origins}")
+// CORRECCION: CrossOrigin se maneja globalmente en SecurityConfig.
+// Si se deja aqui, debe coincidir con la propiedad del properties.
+// Lo dejamos por claridad pero SecurityConfig ya lo cubre.
 public class CaseController {
 
     private final CaseService caseService;
@@ -28,6 +30,17 @@ public class CaseController {
     @GetMapping("/{id}")
     public ResponseEntity<CaseResponseDTO> obtenerPorId(@PathVariable Long id) {
         return ResponseEntity.ok(caseService.obtenerPorId(id));
+    }
+
+    // IMPORTANTE: /buscar y /dashboard antes de /{id} para evitar conflicto de ruta
+    @GetMapping("/buscar")
+    public ResponseEntity<List<CaseResponseDTO>> buscar(@RequestParam String q) {
+        return ResponseEntity.ok(caseService.buscar(q));
+    }
+
+    @GetMapping("/dashboard")
+    public ResponseEntity<DashboardDTO> dashboard() {
+        return ResponseEntity.ok(caseService.obtenerDashboard());
     }
 
     @PostMapping
@@ -47,15 +60,5 @@ public class CaseController {
     public ResponseEntity<Void> eliminar(@PathVariable Long id) {
         caseService.eliminar(id);
         return ResponseEntity.noContent().build();
-    }
-
-    @GetMapping("/buscar")
-    public ResponseEntity<List<CaseResponseDTO>> buscar(@RequestParam String q) {
-        return ResponseEntity.ok(caseService.buscar(q));
-    }
-
-    @GetMapping("/dashboard")
-    public ResponseEntity<DashboardDTO> dashboard() {
-        return ResponseEntity.ok(caseService.obtenerDashboard());
     }
 }

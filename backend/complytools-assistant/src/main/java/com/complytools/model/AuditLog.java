@@ -33,11 +33,17 @@ public class AuditLog {
     @Column(columnDefinition = "TEXT")
     private String detalle;
 
-    @Column(nullable = false)
+    /**
+     * CORRECCION: @PrePersist ya setea 'fecha' automaticamente.
+     * No debe setearse en el builder para evitar conflictos.
+     * Si se pasa null por el builder, @PrePersist lo sobreescribe correctamente.
+     */
+    @Column(nullable = false, updatable = false)
     private LocalDateTime fecha;
 
     @PrePersist
     public void prePersist() {
+        // Siempre sobreescribe con el momento actual al persistir
         this.fecha = LocalDateTime.now();
     }
 }

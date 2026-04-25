@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { casesApi, exportApi } from '../services/api'
 import StatusBadge from '../components/StatusBadge'
@@ -12,34 +12,59 @@ export default function Cases() {
   const [showModal, setShowModal] = useState(false)
   const navigate = useNavigate()
 
-  const cargar = () => {
+  // useCallback para evitar re-creaciones innecesarias de la funcion
+  const cargar = useCallback(async () => {
     setLoading(true)
-    casesApi.listar()
-      .then(res => setCases(res.data))
-      .finally(() => setLoading(false))
-  }
+    try {
+      const res = await casesApi.listar()
+      setCases(res.data)
+    } catch (err) {
+      console.error('[Cases] Error al cargar:', err)
+    } finally {
+      setLoading(false)
+    }
+  }, [])
 
-  useEffect(() => { cargar() }, [])
+  // El useEffect no llama setState directamente: delega a cargar()
+  useEffect(() => {
+    cargar()
+  }, [cargar])
 
-  const buscar = () => {
-    if (!query.trim()) return cargar()
-    casesApi.buscar(query).then(res => setCases(res.data))
+  const buscar = async () => {
+    if (!query.trim()) {
+      cargar()
+      return
+    }
+    setLoading(true)
+    try {
+      const res = await casesApi.buscar(query)
+      setCases(res.data)
+    } catch (err) {
+      console.error('[Cases] Error al buscar:', err)
+    } finally {
+      setLoading(false)
+    }
   }
 
   const eliminar = async (id, e) => {
     e.stopPropagation()
-    if (!confirm('Eliminar este caso y todas sus fuentes?')) return
-    await casesApi.eliminar(id)
-    cargar()
+    if (!window.confirm('Eliminar este caso y todas sus fuentes?')) return
+    try {
+      await casesApi.eliminar(id)
+      cargar()
+    } catch (err) {
+      console.error('[Cases] Error al eliminar:', err)
+    }
   }
 
   const abrirBusquedaGoogle = (nombre, pais, e) => {
     e.stopPropagation()
-    const query1 = encodeURIComponent(`"${nombre}" fraude ${pais}`)
-    const query2 = encodeURIComponent(`"${nombre}" investigacion`)
-    window.open(`https://www.google.com/search?q=${query1}`, '_blank')
-    setTimeout(() =>
-      window.open(`https://www.google.com/search?q=${query2}`, '_blank'), 400)
+    const q1 = encodeURIComponent(`"${nombre}" fraude ${pais}`)
+    const q2 = encodeURIComponent(`"${nombre}" investigacion`)
+    window.open(`https://www.google.com/search?q=${q1}`, '_blank')
+    setTimeout(() => {
+      window.open(`https://www.google.com/search?q=${q2}`, '_blank')
+    }, 400)
   }
 
   const exportarCSV = async () => {
@@ -52,8 +77,13 @@ export default function Cases() {
       a.click()
       URL.revokeObjectURL(url)
     } catch {
-      alert('Error al exportar')
+      alert('Error al exportar. Verifique que el backend este activo.')
     }
+  }
+
+  const handleModalSaved = () => {
+    setShowModal(false)
+    cargar()
   }
 
   return (
@@ -143,7 +173,9 @@ export default function Cases() {
                   </td>
                   <td className="px-4 py-3.5 text-text-secondary">{caso.totalFuentes}</td>
                   <td className="px-4 py-3.5 text-text-secondary text-xs">
-                    {new Date(caso.createdAt).toLocaleDateString('es-PE')}
+                    {caso.createdAt
+                      ? new Date(caso.createdAt).toLocaleDateString('es-PE')
+                      : '—'}
                   </td>
                   <td className="px-4 py-3.5">
                     <div className="flex items-center gap-2">
@@ -173,7 +205,7 @@ export default function Cases() {
       {showModal && (
         <CaseFormModal
           onClose={() => setShowModal(false)}
-          onSaved={() => { setShowModal(false); cargar() }}
+          onSaved={handleModalSaved}
         />
       )}
     </div>

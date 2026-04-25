@@ -23,7 +23,12 @@ public class SourceService {
     private final SourceRepository sourceRepository;
     private final CaseRepository caseRepository;
 
+    @Transactional(readOnly = true)
     public List<SourceResponseDTO> listarPorCaso(Long caseId) {
+        // Verificar que el caso existe antes de listar
+        if (!caseRepository.existsById(caseId)) {
+            throw new EntityNotFoundException("Caso no encontrado: " + caseId);
+        }
         return sourceRepository.findByCaseEntityId(caseId)
                 .stream()
                 .map(this::mapToResponse)
@@ -36,7 +41,7 @@ public class SourceService {
                 .orElseThrow(() -> new EntityNotFoundException("Caso no encontrado: " + caseId));
 
         // Validar URL duplicada dentro del mismo caso
-        if (sourceRepository.existsByCaseEntityIdAndUrl(caseId, dto.getUrl())) {
+        if (sourceRepository.existsByCaseEntityIdAndUrl(caseId, dto.getUrl().trim())) {
             throw new IllegalArgumentException("Esta URL ya fue registrada en este caso.");
         }
 
@@ -45,8 +50,8 @@ public class SourceService {
                 .url(dto.getUrl().trim())
                 .tipo(dto.getTipo())
                 .observacion(dto.getObservacion())
-                .sospechosa(dto.getSospechosa() != null ? dto.getSospechosa() : false)
-                .relevante(dto.getRelevante() != null ? dto.getRelevante() : true)
+                .sospechosa(dto.getSospechosa() != null ? dto.getSospechosa() : Boolean.FALSE)
+                .relevante(dto.getRelevante() != null ? dto.getRelevante() : Boolean.TRUE)
                 .build();
 
         Source guardado = sourceRepository.save(source);
@@ -59,8 +64,8 @@ public class SourceService {
         Source source = sourceRepository.findById(sourceId)
                 .orElseThrow(() -> new EntityNotFoundException("Fuente no encontrada: " + sourceId));
 
-        source.setSospechosa(sospechosa);
-        source.setRelevante(relevante);
+        source.setSospechosa(sospechosa != null ? sospechosa : source.getSospechosa());
+        source.setRelevante(relevante != null ? relevante : source.getRelevante());
 
         return mapToResponse(sourceRepository.save(source));
     }
