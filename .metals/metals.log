@@ -1528,3 +1528,4 @@ WARNING: Unmatched cancel notification for request id 1
 
 2026.04.25 18:14:08 INFO  time: code lens generation in 2.13s
 2026.04.25 18:14:08 INFO  time: code lens generation in 2.13s
+2026.04.25 18:50:26 INFO  no build target found for C:\Users\Jherson Silva\complytools-assistant\backend\complytools-assistant\src\main\java\com\complytools\config\SecurityConfig.java. Using fallback presentation compiler.
